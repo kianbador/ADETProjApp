@@ -1,0 +1,418 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\ADETProjApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|d:\\source\\repos\\adetprojapp\\model\\fooddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:model\\fooddetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\triviagamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\triviagamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\paymentoption.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\paymentoption.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\paymentoption.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\paymentoption.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\ordercontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\ordercontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\wordgamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\wordgamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\triviagamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\triviagamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\viewmodel\\vouchervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:viewmodel\\vouchervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\gamescontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\gamescontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\gamescontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\gamescontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\wordgamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\wordgamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\cartcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\cartcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\viewmodel\\cartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:viewmodel\\cartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\model\\cartmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:model\\cartmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\model\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:model\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\foodcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\foodcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\viewmodel\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:viewmodel\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\viewmodel\\pointsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:viewmodel\\pointsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\orderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:orderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\voucherwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\voucherwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|D:\\source\\repos\\ADETProjApp\\view\\profilecontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC49DE7C-6281-4905-81A7-9E5515DD401E}|ADETProjApp.csproj|solutionrelative:view\\profilecontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoodDetails.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\Model\\FoodDetails.cs",
+              "RelativeDocumentMoniker": "Model\\FoodDetails.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\Model\\FoodDetails.cs",
+              "RelativeToolTip": "Model\\FoodDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:37:52.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentOption.xaml.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\PaymentOption.xaml.cs",
+              "RelativeDocumentMoniker": "View\\PaymentOption.xaml.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\PaymentOption.xaml.cs",
+              "RelativeToolTip": "View\\PaymentOption.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA8wCcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:17:51.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentOption.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\PaymentOption.xaml",
+              "RelativeDocumentMoniker": "View\\PaymentOption.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\PaymentOption.xaml",
+              "RelativeToolTip": "View\\PaymentOption.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T10:15:15.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwEMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T09:36:42.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T09:32:43.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderContent.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\OrderContent.xaml",
+              "RelativeDocumentMoniker": "View\\OrderContent.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\OrderContent.xaml",
+              "RelativeToolTip": "View\\OrderContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T09:28:45.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TriviaGameWindow.xaml.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\TriviaGameWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\TriviaGameWindow.xaml.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\TriviaGameWindow.xaml.cs",
+              "RelativeToolTip": "View\\TriviaGameWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T08:29:34.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WordGameWindow.xaml.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\WordGameWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\WordGameWindow.xaml.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\WordGameWindow.xaml.cs",
+              "RelativeToolTip": "View\\WordGameWindow.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwDcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:46:11.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TriviaGameWindow.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\TriviaGameWindow.xaml",
+              "RelativeDocumentMoniker": "View\\TriviaGameWindow.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\TriviaGameWindow.xaml",
+              "RelativeToolTip": "View\\TriviaGameWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T07:52:24.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartVM.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\ViewModel\\CartVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CartVM.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\ViewModel\\CartVM.cs",
+              "RelativeToolTip": "ViewModel\\CartVM.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:38:38.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\Model\\Cart.cs",
+              "RelativeDocumentMoniker": "Model\\Cart.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\Model\\Cart.cs",
+              "RelativeToolTip": "Model\\Cart.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:38:22.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartManage.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\Model\\CartManage.cs",
+              "RelativeDocumentMoniker": "Model\\CartManage.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\Model\\CartManage.cs",
+              "RelativeToolTip": "Model\\CartManage.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:38:20.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Food.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\Model\\Food.cs",
+              "RelativeDocumentMoniker": "Model\\Food.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\Model\\Food.cs",
+              "RelativeToolTip": "Model\\Food.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:38:00.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VoucherVM.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\ViewModel\\VoucherVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\VoucherVM.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\ViewModel\\VoucherVM.cs",
+              "RelativeToolTip": "ViewModel\\VoucherVM.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAuwD4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T07:00:50.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderVM.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\ViewModel\\OrderVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\OrderVM.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\ViewModel\\OrderVM.cs",
+              "RelativeToolTip": "ViewModel\\OrderVM.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAuwEUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:59:47.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PointsVM.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\ViewModel\\PointsVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\PointsVM.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\ViewModel\\PointsVM.cs",
+              "RelativeToolTip": "ViewModel\\PointsVM.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAcwDsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:58:50.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VoucherWindow.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\VoucherWindow.xaml",
+              "RelativeDocumentMoniker": "View\\VoucherWindow.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\VoucherWindow.xaml",
+              "RelativeToolTip": "View\\VoucherWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T06:44:22.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WordGameWindow.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\WordGameWindow.xaml",
+              "RelativeDocumentMoniker": "View\\WordGameWindow.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\WordGameWindow.xaml",
+              "RelativeToolTip": "View\\WordGameWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T06:42:14.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "View\\GamesContent.xaml.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\GamesContent.xaml.cs",
+              "RelativeDocumentMoniker": "View\\GamesContent.xaml.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\GamesContent.xaml.cs",
+              "RelativeToolTip": "View\\GamesContent.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:34:43.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderWindow.xaml.cs",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\OrderWindow.xaml.cs",
+              "RelativeDocumentMoniker": "OrderWindow.xaml.cs",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\OrderWindow.xaml.cs",
+              "RelativeToolTip": "OrderWindow.xaml.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAuwBcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:30:53.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderWindow.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\OrderWindow.xaml",
+              "RelativeDocumentMoniker": "OrderWindow.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\OrderWindow.xaml",
+              "RelativeToolTip": "OrderWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T06:30:47.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FoodContent.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\FoodContent.xaml",
+              "RelativeDocumentMoniker": "View\\FoodContent.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\FoodContent.xaml",
+              "RelativeToolTip": "View\\FoodContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T06:22:19.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProfileContent.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\ProfileContent.xaml",
+              "RelativeDocumentMoniker": "View\\ProfileContent.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\ProfileContent.xaml",
+              "RelativeToolTip": "View\\ProfileContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T06:08:18.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartContent.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\CartContent.xaml",
+              "RelativeDocumentMoniker": "View\\CartContent.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\CartContent.xaml",
+              "RelativeToolTip": "View\\CartContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T04:35:29.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GamesContent.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\ADETProjApp\\View\\GamesContent.xaml",
+              "RelativeDocumentMoniker": "View\\GamesContent.xaml",
+              "ToolTip": "D:\\source\\repos\\ADETProjApp\\View\\GamesContent.xaml",
+              "RelativeToolTip": "View\\GamesContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T04:35:21.505Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

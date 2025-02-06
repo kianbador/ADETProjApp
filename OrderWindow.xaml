@@ -1,0 +1,118 @@
+﻿<Window x:Class="ADETProjApp.OrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADETProjApp"
+        mc:Ignorable="d"
+        Title="OrderWindow" Height="800" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Topmost="False"
+        WindowStyle="SingleBorderWindow">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Background="#d11717">
+                <StackPanel Margin="0, 40,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Border CornerRadius="20" Height="70" Width="70" Background="White">
+                        <Image VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="UniformToFill" Source="\img\logos\app-logo.png" Height="90" Width="90" />
+                    </Border>
+                    <Label Content="mealMaster" FontSize="23" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Margin="10,170,10,50">
+                    <ToggleButton Margin="5" x:Name="profileBtn" Height="50" FontSize="21" Background="#d11717" Foreground="White"
+              Checked="profileBtn_Checked" Unchecked="toggleBtns_Unchecked">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="D:\source\repos\ADETProjApp\img\ToggleButtons\user.png" Height="30" Width="30" Margin="0,0,10,0"/>
+                            <TextBlock Text="Profile" VerticalAlignment="Center" FontSize="21"/>
+                        </StackPanel>
+                    </ToggleButton>
+                    <ToggleButton Margin="0,5,5,5" x:Name="foodBtn" Height="50" FontSize="21" Background="#d11717" Foreground="White"
+              Checked="foodBtn_Checked" Unchecked="toggleBtns_Unchecked">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="D:\source\repos\ADETProjApp\img\ToggleButtons\dish1.png" Height="40" Width="40" Margin="0,0,10,0"/>
+                            <TextBlock Text="Food" VerticalAlignment="Center" FontSize="21"/>
+                        </StackPanel>
+                    </ToggleButton>
+                    <ToggleButton Margin="5" x:Name="cartBtn" Height="50" FontSize="21" Background="#d11717" Foreground="White"
+              Checked="cartBtn_Checked" Unchecked="toggleBtns_Unchecked">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="D:\source\repos\ADETProjApp\img\ToggleButtons\cart.png" Height="35" Width="35" Margin="10,0,10,0"/>
+                            <TextBlock Text="My Cart" VerticalAlignment="Center" FontSize="21"/>
+                        </StackPanel>
+                    </ToggleButton>
+                    <ToggleButton Margin="5" x:Name="orderBtn" Height="50" FontSize="21" Background="#d11717" Foreground="White"
+              Checked="orderBtn_Checked" Unchecked="toggleBtns_Unchecked">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="D:\source\repos\ADETProjApp\img\ToggleButtons\order.png" Height="30" Width="30" Margin="10,0,10,0"/>
+                            <TextBlock Text="Orders" VerticalAlignment="Center" FontSize="21"/>
+                        </StackPanel>
+                    </ToggleButton>
+                    <ToggleButton Margin="5" x:Name="historyBtn" Height="50" FontSize="21" Background="#d11717" Foreground="White"
+              Checked="historyBtn_Checked" Unchecked="toggleBtns_Unchecked">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="D:\source\repos\ADETProjApp\img\ToggleButtons\history.png" Height="30" Width="30" Margin="10,0,10,0"/>
+                            <TextBlock Text="History" VerticalAlignment="Center" FontSize="21"/>
+                        </StackPanel>
+                    </ToggleButton>
+                    <ToggleButton Margin="5" x:Name="gamesBtn" Height="50" FontSize="21" Background="#d11717" Foreground="White"
+                     Unchecked="toggleBtns_Unchecked" Checked="gamesBtn_Checked">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="D:\source\repos\ADETProjApp\img\ToggleButtons\games.png" Height="40" Width="40" Margin="10,0,10,0"/>
+                            <TextBlock Text="Mini Games" VerticalAlignment="Center" FontSize="21"/>
+                        </StackPanel>
+                    </ToggleButton>
+                    <ToggleButton Margin="5" x:Name="pointsBtn" Height="50" FontSize="19" Background="#d11717" Foreground="White"
+              Checked="pointsBtn_Checked" Unchecked="toggleBtns_Unchecked">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="D:\source\repos\ADETProjApp\img\ToggleButtons\point.png" Height="30" Width="30" Margin="10,0,10,0"/>
+                            <TextBlock Text="Points and Rewards" VerticalAlignment="Center" FontSize="19"/>
+                        </StackPanel>
+                    </ToggleButton>
+
+                    <Button Margin="40" FontSize="18" FontWeight="Bold" Foreground="White" Background="#ffbc26" x:Name="outBtn" BorderBrush="Transparent" Content="Log Out" Width="150" Height="40" Click="outBtn_Click">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border x:Name="border" Background="{TemplateBinding Background}"
+                                            BorderBrush="{TemplateBinding BorderBrush}"
+                                            BorderThickness="{TemplateBinding BorderThickness}"
+                                            CornerRadius="12">
+                                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                </StackPanel>
+                                            </Border>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter TargetName="border" Property="Background" Value="#DBA01C"/>
+
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter TargetName="border" Property="Background" Value="#B48315"/>
+
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </StackPanel>
+
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <ContentControl x:Name="ContentArea"/>
+                <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Background="#ffbc26" VerticalAlignment="Top" Height="50" Width="950"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

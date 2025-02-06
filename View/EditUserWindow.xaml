@@ -1,0 +1,77 @@
+﻿<Window x:Class="ADETProjApp.View.EditUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADETProjApp.View"
+        mc:Ignorable="d"
+        Title="EditUserWindow" Height="500" Width="450" WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Topmost="False"
+        WindowStyle="SingleBorderWindow">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Margin="10,0,0,0" FontSize="16" Grid.Row="0" Content="Username:" VerticalAlignment="Center"/>
+        <TextBox Margin="0,0,10,0"  FontSize="16"  x:Name="usernameEntry" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Width="230"/>
+
+        <Label Margin="10,0,0,0" FontSize="16"  Grid.Row="1" Content="Name:" VerticalAlignment="Center"/>
+        <TextBox Margin="0,0,10,0"  FontSize="16"   x:Name="nameEntry" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Width="230"/>
+
+        <Label Margin="10,0,0,0" FontSize="16"  Grid.Row="2" Content="Address:" VerticalAlignment="Center"/>
+        <TextBox Margin="0,0,10,0"  FontSize="16"  x:Name="addressEntry" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Width="230"/>
+
+        <Label Margin="10,0,0,0" FontSize="16"  Grid.Row="3" Content="Email:" VerticalAlignment="Center"/>
+        <TextBox Margin="0,0,10,0"  FontSize="16"  x:Name="emailEntry" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Width="230"/>
+
+        <Label Margin="10,0,0,0" FontSize="16"  Grid.Row="4" Content="Contact Number:" VerticalAlignment="Center"/>
+        <TextBox Margin="0,0,10,0"  FontSize="16"  x:Name="numEntry" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Width="230"/>
+
+        <Label Margin="10,0,0,0" FontSize="16"  Grid.Row="5" Content="Password:" VerticalAlignment="Center"/>
+        <PasswordBox Margin="0,0,10,0"  FontSize="16"  x:Name="passwordEntry" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Width="230" />
+
+        <Label Margin="10,0,0,0" FontSize="16"  Grid.Row="6" Content="Confirm Password:" VerticalAlignment="Center"/>
+        <PasswordBox Margin="0,0,10,0" FontSize="16"  x:Name="confPasswordEntry" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Width="230" />
+
+        <Button x:Name="updateBtn" Background="#D11717" Foreground="White" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Center" Margin="0,20,0,0" Width="100" Content="Save" Click="updateBtn_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border x:Name="border" Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="12">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="border" Property="Background" Value="#a01313"/>
+
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="border" Property="Background" Value="#850d0d"/>
+
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>

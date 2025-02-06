@@ -1,0 +1,75 @@
+﻿<Window x:Class="ADETProjApp.View.PaymentOption"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADETProjApp.View"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Topmost="False"
+        WindowStyle="SingleBorderWindow"
+        mc:Ignorable="d"
+        
+        Title="PaymentOption" Height="250" Width="275">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+            <Image Source="..\img\dollar.png" Margin="10" Height="30"/>
+            <TextBlock  FontSize="15" FontStyle="Oblique" VerticalAlignment="Center" HorizontalAlignment="Center" Text="Select Payment Method:" />
+        </StackPanel>
+
+        <StackPanel Margin="20,0,20,0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left">
+            <RadioButton Margin="0,10,0,10" x:Name="codRB" GroupName="Options" IsChecked="True" Tag="1" FontSize="10">
+                <RadioButton.Content>
+                    <TextBlock Text="Pay in Cash"/>
+                </RadioButton.Content>
+                <RadioButton.LayoutTransform>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                </RadioButton.LayoutTransform>
+            </RadioButton>
+
+            <RadioButton x:Name="onlineRB" Margin="0,10,0,10" GroupName="Options" Tag="2" FontSize="10">
+                <RadioButton.Content>
+                    <TextBlock Text="E-Wallets/Cards and others"/>
+                </RadioButton.Content>
+                <RadioButton.LayoutTransform>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                </RadioButton.LayoutTransform>
+            </RadioButton>
+        </StackPanel>
+
+        <Button x:Name="proceedBtn" Grid.Row="2" VerticalAlignment="Top" Content="Proceed" Background="#d11717" Foreground="White" Height="30"  Width="80" Click="proceedBtn_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border x:Name="border" Background="{TemplateBinding Background}"
+                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        BorderThickness="{TemplateBinding BorderThickness}"
+                                        CornerRadius="12">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="border" Property="Background" Value="#a01313"/>
+                                        <!-- Change background on hover -->
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="border" Property="Background" Value="#850d0d"/>
+                                        <!-- Change background on press -->
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>

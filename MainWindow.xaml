@@ -1,0 +1,20 @@
+﻿<Window x:Class="ADETProjApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADETProjApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="500"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Topmost="False"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    <Grid>
+        <Frame Name="MainFrame" NavigationUIVisibility="Hidden" 
+               HorizontalAlignment="Stretch"
+               VerticalAlignment="Stretch"/>
+    </Grid>
+</Window>
